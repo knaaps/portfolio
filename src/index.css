@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* Black & Yellow Theme - Complete Semantic Variables */
+  /* Black & green Theme - Complete Semantic Variables */
   --color-background: #000000;
   --color-surface: #0f0f0f;
   --color-card: #1a1a1a;
@@ -9,15 +9,15 @@
   --color-muted: #a3a3a3;
   --color-border: #2a2a2a;
   
-  /* Yellow palette - used for primary/accent */
-  --color-yellow: #fbbf24;
-  --color-yellow-dark: #f59e0b;
-  --color-yellow-light: #fde047;
+  /* green palette - used for primary/accent */
+  --color-green: #fbbf24;
+  --color-green-dark: #f59e0b;
+  --color-green-light: #fde047;
   
   /* Semantic mappings */
-  --color-primary: var(--color-yellow);
-  --color-accent: var(--color-yellow);
-  --color-secondary: var(--color-yellow-dark);
+  --color-primary: var(--color-green);
+  --color-accent: var(--color-green);
+  --color-secondary: var(--color-green-dark);
 }
 
 @layer base {
@@ -34,24 +34,24 @@
   }
   
   ::selection {
-    background-color: var(--color-yellow);
+    background-color: var(--color-green);
     color: var(--color-background);
   }
 }
 
 @layer utilities {
-  /* Yellow utilities */
-  .text-yellow { color: var(--color-yellow); }
-  .bg-yellow { background-color: var(--color-yellow); }
-  .border-yellow { border-color: var(--color-yellow); }
+  /* green utilities */
+  .text-green { color: var(--color-green); }
+  .bg-green { background-color: var(--color-green); }
+  .border-green { border-color: var(--color-green); }
   
   /* Animation utilities */
   .animate-fade-in { animation: fadeIn 0.6s ease-out; }
   .animate-fade-up { animation: slideUp 0.6s ease-out; }
   
   /* Shadow/glow utilities */
-  .yellow-glow { box-shadow: 0 0 30px rgba(251, 191, 36, 0.3); }
-  .yellow-glow-sm { box-shadow: 0 0 15px rgba(251, 191, 36, 0.2); }
+  .green-glow { box-shadow: 0 0 30px rgba(251, 191, 36, 0.3); }
+  .green-glow-sm { box-shadow: 0 0 15px rgba(251, 191, 36, 0.2); }
   
   /* These ensure the semantic colors work in utilities */
   .bg-primary { background-color: var(--color-primary); }

@@ -56,7 +56,7 @@ export default function Contact() {
 
       <a 
         href="mailto:vinayak4x@gmail.com"
-        className="block w-full text-center py-3 bg-primary text-background rounded-lg hover:bg-yellow-dark transition-colors font-medium"
+        className="block w-full text-center py-3 bg-primary text-background rounded-lg hover:bg-green-dark transition-colors font-medium"
       >
         Send Message
       </a>
